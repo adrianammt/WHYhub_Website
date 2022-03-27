@@ -2,11 +2,11 @@ import { Route, Switch } from "react-router";
 import Contacto from "../pages/Contacto";
 import QueHacemos from "../pages/QueHacemos";
 import QuienesSomos from "../pages/QuienesSomos";
-
+import "./Main.css"
 
 export default function Main(){
     return(
-        <main>
+        <main className="Content">
             <Switch>
                 <Route path="/QueHacemos">
                     <QueHacemos/>
