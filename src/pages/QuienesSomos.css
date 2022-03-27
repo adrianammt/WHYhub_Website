@@ -4,7 +4,7 @@
   justify-content: space-between;
 }
 .Tagline {
-  color: rgb(39, 121, 121);
+  color: #338ea5;
   font-size: 1.9rem;
 }
 
@@ -27,11 +27,11 @@
   padding-right: 2rem;
 }
 
-.Mision {
+.Contenido {
   padding: 0 6rem;
 }
 
 .Title {
-  color: rgb(39, 121, 121);
+  color: #338ea5;
   padding-bottom: 2rem;
 }
