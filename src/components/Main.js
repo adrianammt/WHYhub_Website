@@ -17,6 +17,9 @@ export default function Main(){
                 <Route path="/QuienesSomos">
                     <QuienesSomos/>
                 </Route>
+                <Route path="/home">
+                    <QuienesSomos/>
+                </Route>
             </Switch>
         </main>
 
