@@ -5,6 +5,11 @@
 
 .NavLink {
   text-decoration: none;
+  color: black;
+}
+
+.NavLink:hover {
+  color: red;
 }
 
 .HeaderNav {
