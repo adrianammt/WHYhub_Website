@@ -1,8 +1,8 @@
 .FooterNav {
-  width: 100%;
-  border-top: 1px solid black;
   display: flex;
   justify-content: space-around;
   padding-top: 1rem;
   margin-top: 1rem;
+  background-color: #338ea5;
+  color: ghostwhite;
 }
