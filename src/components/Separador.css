@@ -1,0 +1,9 @@
+.Separador {
+  background-color: aqua;
+  margin: 2rem 0;
+}
+
+.Separador-texto {
+  padding: 2.5rem 0;
+  text-align: center;
+}
