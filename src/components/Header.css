@@ -1,11 +1,12 @@
 .Logo {
-  height: 35px;
+  height: 30px;
   padding-top: 1px;
 }
 
 .NavLink {
   text-decoration: none;
   color: #338ea5;
+  padding: 0.5em;
 }
 
 .NavLink:hover {
