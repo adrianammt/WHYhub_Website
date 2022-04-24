@@ -1,7 +1,8 @@
 .Heroshot {
   display: flex;
-  padding: 0 6rem;
   justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  padding:0 5em;
 }
 .Tagline {
   color: #338ea5;
@@ -11,16 +12,11 @@
 .ImagenInicio {
   background-color: burlywood;
   border: 1px solid black;
-  height: 400px;
-  width: 400px;
-}
-
-.Descripcion {
-  text-align: justify;
+  flex:50%;
 }
 
 .Heroshot-text {
-  width: 600px;
+  flex:50%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -28,10 +24,24 @@
 }
 
 .Contenido {
-  padding: 0 6rem;
+  padding: 0 5rem;
 }
 
 .Title {
   color: #338ea5;
   padding-bottom: 2rem;
+}
+
+.TitleW {
+  color:white;
+  padding-bottom: 2rem;
+}
+
+.Fundamentos{
+  background-color:#338ea5;
+  padding:2rem 5rem;
+  margin:2rem 0;
+}
+.Parrafo{
+  margin-bottom: 1rem;
 }
