@@ -1,7 +1,7 @@
 .FooterNav {
   display: flex;
   justify-content: space-between;
-  padding: 2rem 5rem;
+  padding: 2rem 1rem;
   margin-top: 2rem;
   background-color: #338ea5;
   color: ghostwhite;

@@ -1,28 +1,33 @@
 import Footer from "../components/Footer";
 import Separador from "../components/Separador";
 import "./QuienesSomos.css"
-
+import Tree from "../assets/fayeCornishUnsplash.jpg"
+import Mural from "../assets/VicenteMural.jpeg"
 
 export default function QuienesSomos(){
     return (
     <>
-    <section className="Heroshot">
-    <div className="Heroshot-text">
+    <section className="Heroshot PicRight">
+    <div className="Heroshot-text Left">
     <h1 className="Tagline">Innovación al servicio de la comunidad</h1>
     <p className="Parrafo">Somos una comunidad de investigadores y gestores que conecta múltiples disciplinas, enfoques y maneras de acercarse a la realidad.</p>
     <p className="Parrafo">Co-Creamos junto a las organizaciones soluciones efectivas, partiendo de preguntas agudas e informadas y de un diagnóstico que representa la complejidad de los problemas que abordan y los contextos en los que se desarrollan.</p>
     <p className="Parrafo">Brindamos a las organizaciones un diagnóstico comprehensivo y soluciones accionables.</p>
     </div>
-    <div className="ImagenInicio">The truth is human</div>
+    <div className="ImagenInicio">
+        <img src={Tree} alt="Foto de un arbol" className="Imagen"/>
+    </div>
     </section>
     <Separador
     texto="&quot;Preguntamos para co-crear soluciones centradas en las personas.&quot;"/>
-        <section className="Contenido">
+        <section className="Heroshot PicLeft">
+            <div className="ImagenInicio">  <img src={Mural} alt="Foto de un arbol" className="Imagen"/></div>
+            <div className="Heroshot-text Right">
         <h2 className="Title">Historia - WHY we came to be</h2>
         <p className="Descripcion">La Latinoamérica de hoy no es la misma que hace 40 años, sin embargo seguimos haciendo las mismas preguntas y aplicando las mismas soluciones.
 Los problemas sociales son complejos y para resolverlos necesitamos traer a la discusión distintas perspectivas, desde distintas disciplinas y públicos (investigadores/as, gestores/as, ciudadanas/os, entre otros).  
 Necesitamos hacer preguntas que rompan la inercia de las soluciones comunes.</p>
-    </section>
+</div></section>
     <Separador  texto="&quot;Somos una red neuronal social que conecta y fusiona múltiples enfoques y perspectivas.&quot;"/>
     <section className="Contenido">
         <h2 className="Title">Nuestra Misión</h2>
