@@ -9,7 +9,7 @@ export default function QuienesSomos(){
     <>
     <section className="Heroshot PicRight">
     <div className="Heroshot-text Left">
-    <h1 className="Tagline">Innovación al servicio de la comunidad</h1>
+    <h1 className="Title">Innovación al servicio de la comunidad</h1>
     <p className="Parrafo">Somos una comunidad de investigadores y gestores que conecta múltiples disciplinas, enfoques y maneras de acercarse a la realidad.</p>
     <p className="Parrafo">Co-Creamos junto a las organizaciones soluciones efectivas, partiendo de preguntas agudas e informadas y de un diagnóstico que representa la complejidad de los problemas que abordan y los contextos en los que se desarrollan.</p>
     <p className="Parrafo">Brindamos a las organizaciones un diagnóstico comprehensivo y soluciones accionables.</p>
@@ -20,21 +20,28 @@ export default function QuienesSomos(){
     </section>
     <Separador
     texto="&quot;Preguntamos para co-crear soluciones centradas en las personas.&quot;"/>
-        <section className="Heroshot PicLeft">
-            <div className="ImagenInicio">  <img src={Mural} alt="Foto de un arbol" className="Imagen"/></div>
+    <section className="Heroshot PicLeft">
+            <div className="ImagenInicio">  <img src={Mural} alt="Vicente en un mural" className="Imagen"/></div>
             <div className="Heroshot-text Right">
-        <h2 className="Title">Historia - WHY we came to be</h2>
-        <p className="Descripcion">La Latinoamérica de hoy no es la misma que hace 40 años, sin embargo seguimos haciendo las mismas preguntas y aplicando las mismas soluciones.
-Los problemas sociales son complejos y para resolverlos necesitamos traer a la discusión distintas perspectivas, desde distintas disciplinas y públicos (investigadores/as, gestores/as, ciudadanas/os, entre otros).  
-Necesitamos hacer preguntas que rompan la inercia de las soluciones comunes.</p>
-</div></section>
+                <h2 className="Title">Historia - WHY we came to be</h2>
+                <p className="Parrafo">La Latinoamérica de hoy no es la misma que hace 40 años, sin embargo seguimos haciendo las mismas preguntas y aplicando las mismas soluciones.</p>
+                <p className="Parrafo">Los problemas sociales son complejos y para resolverlos necesitamos traer a la discusión distintas perspectivas, desde distintas disciplinas y públicos (investigadores/as, gestores/as, ciudadanas/os, entre otros).</p>
+                <p className="Parrafo">Necesitamos hacer preguntas que rompan la inercia de las soluciones comunes.</p>
+            </div>
+            </section>  
+       
+        
+        
+          
+    
+
     <Separador  texto="&quot;Somos una red neuronal social que conecta y fusiona múltiples enfoques y perspectivas.&quot;"/>
     <section className="Contenido">
         <h2 className="Title">Nuestra Misión</h2>
         <ul>
-        <li>Queremos cristalizar la utopía de un presente más empático, mas solidario, mas colectivo: más humano.</li>
-        <li>Queremos encontrar soluciones innovadoras a los problemas sociales que se atienden desde las organizaciones privadas y públicas, creando una comunidad reflexiva y multidisciplinaria.</li>
-        <li>Queremos crear una comunidad donde cada investigador o gestor mire e interpele la realidad desde distintas perspectivas y haciéndole preguntas disonantes.</li>
+        <li className="Parrafo">Queremos cristalizar la utopía de un presente más empático, mas solidario, mas colectivo: más humano.</li>
+        <li className="Parrafo">Queremos encontrar soluciones innovadoras a los problemas sociales que se atienden desde las organizaciones privadas y públicas, creando una comunidad reflexiva y multidisciplinaria.</li>
+        <li className="Parrafo">Queremos crear una comunidad donde cada investigador o gestor mire e interpele la realidad desde distintas perspectivas y haciéndole preguntas disonantes.</li>
         </ul>
     </section>
     <section className="Fundamentos">

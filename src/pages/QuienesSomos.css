@@ -11,17 +11,12 @@
   flex-wrap:wrap;
 }
 
-.Tagline {
-  color: #338ea5;
-  font-size: 1.9rem;
-}
-
 .ImagenInicio {
   flex:50%;
 }
 
 .Imagen{
-  object-fit:fill;
+  object-fit:cover;
   height:100%;
   width:100%;
 }
@@ -46,12 +41,12 @@
 
 .Title {
   color: #338ea5;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .TitleW {
   color:white;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
 }
 
 .Fundamentos{
