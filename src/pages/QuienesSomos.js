@@ -7,8 +7,8 @@ import Mural from "../assets/VicenteMural.jpeg"
 export default function QuienesSomos(){
     return (
     <>
-    <section className="Heroshot PicRight">
-    <div className="Heroshot-text Left">
+    <section className="Intro">
+    <div className="Heroshot-text">
     <h1 className="Title">Innovación al servicio de la comunidad</h1>
     <p className="Parrafo">Somos una comunidad de investigadores y gestores que conecta múltiples disciplinas, enfoques y maneras de acercarse a la realidad.</p>
     <p className="Parrafo">Co-Creamos junto a las organizaciones soluciones efectivas, partiendo de preguntas agudas e informadas y de un diagnóstico que representa la complejidad de los problemas que abordan y los contextos en los que se desarrollan.</p>

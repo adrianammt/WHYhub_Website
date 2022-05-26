@@ -11,6 +11,12 @@
   flex-wrap:wrap;
 }
 
+.Intro {
+  display: flex;
+  padding:0 1rem;
+  flex-wrap: wrap-reverse;
+}
+
 .ImagenInicio {
   flex:50%;
 }
